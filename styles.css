@@ -38,7 +38,11 @@ body {
   max-width: 480px;
 }
 
-.button {
+.card__title{
+  margin-bottom: 0.8rem;
+}
+
+.card__button {
   padding: 0.6rem 1.2rem;
   background: var(--primary);
   color: #fff;
