@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set Variables */
+:root {
+  --bg-color: #fff;
+  --text-color: #222;
+  --card-bg: #f4f4f4;
+  --primary: #3b82f6;
+}
+
+/* Change Variables Value In Dark Theme */
+body.dark {
+  --bg-color: #18181b;
+  --text-color: #f1f1f1;
+  --card-bg: #23232a;
+  --primary: #f59e42;
+}
+
+body {
+  background: var(--bg-color);
+  color: var(--text-color);
+  font-family: sans-serif;
+  transition:
+    background 0.3s,
+    color 0.3s;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 6px #0001;
+  margin: 2rem auto;
+  max-width: 480px;
+}
+
+.button {
+  padding: 0.6rem 1.2rem;
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 0.6rem;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1.2rem;
+  transition: background 0.3s;
+}
+
